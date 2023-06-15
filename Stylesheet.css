@@ -161,7 +161,7 @@ font-size: 1.1em;
 	padding-top: 9%;
 	margin-right:10%;
 	text-align: left;
-	width: 40%;	
+	width: 380px;	
 		z-index: 1;
 }
 
@@ -260,7 +260,7 @@ transition: 0.3s;
 	padding-top: 3%;
 	margin-left: 12%;
 	text-align: left;
-	width: 40%;	
+	width: 380px;	
 }
 
 #textbox-2 img {
