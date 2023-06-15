@@ -434,21 +434,23 @@ input[type="email"]:focus {
 
 
 #button3 {
-		background-color: #BF9F74;
+	background-color: #BF9F74;
         color: white;
         padding: 5px 5px;
         border-radius: 3px;
        	font-size: 0.8em;
         cursor:pointer;
-		margin-top: 5%;
-		font-family: 'Nunito Sans', bold;
-		font-weight: 100;		
+	margin-top: 5%;
+	font-family: 'Nunito Sans', bold;
+	font-weight: 100;		
 }
 
 #button3:hover {
   background-color: white;
   color: #BF9F74;
   border: 2px solid #BF9F74;
+	transform:scale(1.1);
+	transition: 0.8s;
 }
 
 
