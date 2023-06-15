@@ -1,0 +1,654 @@
+@charset "UTF-8";
+
+.Vertrauensbox{
+
+width: 100%;
+height: 67px;
+background: #BF9F74;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.Vertrauensbox p{
+	
+position:absolute;
+left: 50%;
+transform: translateY(-50%);
+transform: translateX(-50%);
+white-space: nowrap;
+display: flex;
+flex-direction: row;
+
+font: normal normal normal 1.2em Nunito Sans;
+letter-spacing: 0.58px;
+text-transform: uppercase;
+color: white;
+		
+}
+
+.Hintergrund-Logo p{
+
+position:relative;
+font: 5em MADE SAONARA;
+letter-spacing: 133%;
+color: #BF9F74;
+padding-bottom: 2%;
+display: flex;
+flex-direction: row;
+bottom: 40%;
+}
+
+.Hintergrund-Logo{
+width: 100%;
+height: 140px;	
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+.banner {
+justify-content: center;
+align-items: center;
+width: 100%;
+display: flex;
+flex-direction: row;
+
+}
+
+
+.Banner-Bild {
+position: relative;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+.Banner-Bild img {
+max-width: 100%;
+z-index: -2;
+display: flex;
+flex-direction: row;
+}
+
+
+
+.Text {
+position: absolute;
+text-align: center;
+top: 33%;
+left: 50%;
+max-width: 100%;
+
+}
+
+.Text .Spherie{
+color: white;	
+text-shadow: 0.7px 0.7px 0.7px black;
+font-family: 'Nunito Sans', sans-serif;
+font-size:5em;
+font-weight: 100;
+display: block;
+
+  
+}
+
+.Text .Entdecke{
+font-size:3em;
+color: white;
+text-shadow: 0.7px 0.7px 0.7px  black;
+text-align: center;
+font-family: 'Nunito Sans', sans-serif;
+font-weight: 100;
+transform: translateY(-50%);
+transform: translateX(-50%);
+}
+
+/* --------------*/
+
+
+#Zitat p {
+text-align: center;
+font-family: 'Nunito Sans', bold;
+font-weight: 500;
+margin-top: 4%;
+	
+}
+
+#Slogan p {
+text-align: center;
+font-family: 'Nunito Sans', bold;
+font-weight: 100;	
+color: #BF9F74;
+margin-top: 43px;
+font-size: 1.1em;
+
+}
+
+/* --------------*/
+
+.Container-2{ /*erster Abschnitt*/
+	 	min-width: 100%;
+	text-align: center;
+	display: grid;
+	place-items: center;
+	
+	
+}
+
+#textbox-1{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+#textbox-1 p{
+
+	font-family: 'Nunito Sans', bold;
+	font-weight: 100;
+	padding-bottom: 40px;
+	font-size: 1.1em;
+	
+	
+		
+}
+
+#text-1 {
+	float: right;
+	padding-top: 9%;
+	margin-right:10%;
+	text-align: left;
+	width: 40%;	
+		z-index: 1;
+}
+
+#textbox-1 img {
+		max-width: 35%;
+		margin-left: 10%;
+
+}
+
+
+#button1 {
+		background-color: #BF9F74;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+       	font-size: 1.1em;
+        cursor:pointer;
+        margin-top: 5%;	
+		margin-bottom: 5%;
+		font-family: 'Nunito Sans', bold;
+		font-weight: 100;
+		
+}
+
+#button1:hover {
+  background-color: white;
+  color: #BF9F74;
+  border: 2px solid #BF9F74;
+}
+
+#button2:hover {
+  background-color: white;
+  color: #BF9F74;
+  border: 2px solid #BF9F74;
+}
+
+
+/* --------------*/
+
+.Container-3{ /*Icons */
+	text-align: center;
+	margin-top: 5%;
+	min-width: 100%;
+}
+
+figcaption {
+	text-align: center;
+	font-family: 'Nunito Sans', bold;
+	font-weight: 100;	
+	color: #BF9F74;
+	margin-top: 2px;
+	font-size: 1.1em;
+	
+}
+
+figure {
+	display: inline-block;
+	text-align: center;
+	margin: 20px;
+}
+
+figure img{
+	width: 50%;
+	height: auto;
+}
+	
+figure img:hover{
+	 transform:scale(1.13);
+transition: 0.3s;
+}
+/* --------------*/
+.Container-4 /*Zweiter Textblock*/{
+	
+		min-width: 100%; 
+		margin-bottom: 0;
+		flex-direction: row;
+		display: grid;
+	place-items: center;
+}
+
+#textbox-2 p{
+
+	font-family: 'Nunito Sans', bold;
+	font-weight: 100;
+	font-size: 1.1em;
+	
+}
+
+#text-2 {
+	float: left;
+	padding-top: 3%;
+	margin-left: 12%;
+	text-align: left;
+	width: 40%;	
+}
+
+#textbox-2 img {
+		max-width: 30%;
+		margin-left: 50px;
+		padding-top: 4%;		
+}
+
+#textbox-1 img:hover{
+	transform:scale(1.1);
+transition: 0.8s;
+}
+
+#textbox-2 img:hover{
+	transform:scale(1.1);
+transition: 0.8s;
+	
+}
+
+#textbox-3 img:hover{
+	transform:scale(1.1);
+transition: 0.8s;
+	
+}
+/* --------------*/
+
+.Container-5{ /*Dritter Textblock*/
+	 	
+        align-items: center;
+		min-width: 100%;
+		display: grid;
+	place-items: center;
+	
+}
+
+#textbox-3 p{
+	font-family: 'Nunito Sans', bold;
+	font-weight: 100;
+	padding-bottom: 40px;
+	font-size: 1.1em;
+	margin-left: 20px;
+	
+}
+
+
+#text-3 {
+	float: right;
+	padding-top: 9%;
+	margin-right:15%;
+	text-align: left;
+	width: 40%;	
+
+}
+
+#textbox-3 img {
+		max-width: 35%;
+		margin-left: 10%;
+}
+
+
+#button2 {
+		background-color: #BF9F74;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1.1em;
+        cursor:pointer;
+        margin-top: 5%;	
+		font-family: 'Nunito Sans', bold;
+		font-weight: 100;
+}
+
+
+/* --------------*/
+
+
+.Linie {
+            min-width: 100%;
+            height: 2px;
+            background-color: #BF9F74 ;
+			margin-top: 8%;
+			margin-bottom: 8%;
+			display: flex;
+			
+        }
+
+/* ----Footer----------*/
+
+
+ table {
+	 max-width: 100%;
+	 display: flex;
+	 flex-direction: row;
+	 float: left;
+	 position: relative;
+ 	 left: 50%;
+ 	 transform: translateX(-50%);
+	 margin-bottom: 100px;
+	
+
+}
+
+
+th, td {
+	text-align: left;
+	font-family: 'Nunito Sans', bold;
+	
+			 
+}
+
+th {
+	font-family: 'Nunito Sans', bold;
+	font-weight: 500; 
+	color: #BF9F74 ;
+}
+
+td {
+	font-weight: 200;
+	padding-top:20px;
+	width: 12%;
+	vertical-align: top;
+	
+}
+
+th:hover {
+  transform:scale(1.1);
+transition: 0.3s;
+	cursor: pointer;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  color: #BF9F74;
+margin-top: 15px;
+	font-family: 'Nunito Sans', bold;
+	font-weight: 100;
+	
+}
+
+input[type="email"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #BF9F74;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #BF9F74;
+margin-bottom: 10px;
+}
+
+input[type="email"]::placeholder {
+  color: #BF9F74;
+}
+
+input[type="email"]:focus {
+  outline: none;
+  border-color: #BF9F74;
+  box-shadow: 0 0 5px #BF9F74;
+}
+
+
+#button3 {
+		background-color: #BF9F74;
+        color: white;
+        padding: 5px 5px;
+        border-radius: 3px;
+       	font-size: 0.8em;
+        cursor:pointer;
+		margin-top: 5%;
+		font-family: 'Nunito Sans', bold;
+		font-weight: 100;		
+}
+
+#button3:hover {
+  background-color: white;
+  color: #BF9F74;
+  border: 2px solid #BF9F74;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+	
+	.body {
+		overflow-x: hidden;
+	}
+
+	.Vertrauensbox{
+	position: relative;
+  	height: 50px; 
+		
+	}
+	
+	.Vertrauensbox p {
+		font-size: 1em;
+		position: absolute;
+	}
+	
+	.Hintergrund-Logo p{
+flex-direction: column;
+position:relative;
+font: 5em MADE SAONARA;
+letter-spacing: 133%;
+color: #BF9F74;
+padding-bottom: 2%;
+display: flex;
+bottom: 40%;
+		
+	}
+	
+	
+	.Text {
+	position: absolute;
+	top: 79%;
+	left: 50%;
+	
+	}
+	
+	.banner{
+		position: relative;
+	}
+	
+	.Text {
+	position: absolute;
+  	top: 82%;
+  	left: 50%;
+ 	transform: translate(-50%, -50%);
+ 	text-align: center;
+	font-size: 0.8em;
+	}
+	
+	.Banner-Bild img{
+		width:100%;
+		height: auto;
+		
+	}
+/*Pfeil nach unten */
+	
+	.box{
+		top:660px;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		position: absolute;
+		
+	}
+
+	/*----------------*/
+	#Zitat{
+		margin-top: 70px;
+		margin-bottom: 40px;
+		
+	}
+	
+	#Slogan{
+		margin-bottom: 50px;
+		
+	}
+	
+	
+/*-------------------------*/
+	
+#textbox-1{
+	display: flex;
+  	flex-direction: column;
+	max-width: 100%;
+	padding: 0%;
+	
+
+	
+	}
+	
+	#text-1{
+	width: 80%;
+	text-align: center;
+	padding-left: 15%;
+	}
+	
+	#textbox-1 img {
+		min-width: 90%;
+		margin-top: 50px;
+		margin-left:0%;
+		
+	}
+	
+	#textbox-1 p {	
+	width: 100%;
+
+	}
+	
+#button1{
+		margin-bottom: 60px;
+		white-space: nowrap;
+	}
+	
+	
+	/*----------------------------*/
+	
+/*Icons */
+	figure img{
+		width:57%;
+		height: auto;
+}
+	
+	/*-------------pinke blumen---------------*/
+	
+	#text-2{
+	width: 380px;
+	text-align: center;
+	max-width: 100%;
+	}
+	
+	
+	
+	#textbox-2{;
+  	display: flex;
+  	flex-direction: column;
+	max-width: 100%;
+	padding: 0%;
+		
+	}
+		
+	#textbox-2 img {
+		min-width: 80%;
+		margin-top: 10px;
+		margin-left:12%;
+		
+	}
+	
+	#textbox-2 p {	
+		width: 100%;
+	}
+	
+	#button1{
+		margin-bottom: 60px;
+		white-space: nowrap;
+	}
+	
+	/*----------------------------*/
+	
+	
+	#textbox-3{
+	display: flex;
+  	flex-direction: column;
+	max-width: 100%;
+	padding: 0%;
+	}
+	
+	#text-3{
+	width: 80%;
+	text-align: center;
+	padding-left: 10%;
+	}
+	
+	#textbox-3 img {
+		min-width: 80%;
+		margin-top: 10px;
+		margin-right:15%;
+		
+	}
+	
+	#textbox-3 p {	
+	width: 100%;
+	
+		
+	}
+	
+	#button2{
+		margin-bottom: 60px;
+		white-space: nowrap;
+	}
+	
+	/*______________________*/
+	
+	
+	
+	td {
+		display: none;
+
+	}
+	
+	th {
+	float: left;
+	justify-content: space-between;
+	margin-left: 5%;
+  	align-items: left;
+
+		
+	}
+	
+}
