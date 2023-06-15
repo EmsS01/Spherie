@@ -168,11 +168,12 @@ font-size: 1.1em;
 #textbox-1 img {
 		max-width: 35%;
 		margin-left: 10%;
-		transform:scale(1.1);
+		
 }
 
 #textbox-2 img:hover{
-transition: 0.8s;	
+transition: 0.8s;
+transform:scale(1.1);
 }
 
 
@@ -193,6 +194,7 @@ transition: 0.8s;
 }
 
 #button1:hover {
+	background-color: white;
   color: #BF9F74;
 transform: scale(2);
 	
@@ -201,9 +203,10 @@ transform: scale(2);
 #button2:hover {
   background-color: white;
   color: #BF9F74;
-  border: 2px solid #BF9F74;
+transform: scale(2);
 	
 }
+
 
 
 /* --------------*/
@@ -270,11 +273,11 @@ transition: 0.3s;
 		max-width: 30%;
 		margin-left: 50px;
 		padding-top: 4%;
-	transform:scale(1.1);
-
 }
+
 #textbox-2 img:hover{
-transition: 0.8s;	
+transition: 0.8s;
+transform:scale(1.1);
 }
 
 /* --------------*/
@@ -311,11 +314,10 @@ transition: 0.8s;
 #textbox-3 img {
 		max-width: 35%;
 		margin-left: 10%;
-	transform:scale(1.1);
 }
-
-#textbox-3 img:hover{
-transition: 0.8s;	
+#textbox-2 img:hover{
+transition: 0.8s;
+transform:scale(1.1);
 }
 
 
