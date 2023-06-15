@@ -184,23 +184,22 @@ font-size: 1.1em;
 		margin-bottom: 5%;
 		font-family: 'Nunito Sans', bold;
 		font-weight: 100;
-		
+		transform:scale(1.1);
+transition: 0.8s;
 }
 
 #button1:hover {
   background-color: white;
   color: #BF9F74;
   border: 2px solid #BF9F74;
-	transform:scale(1.1);
-transition: 0.8s;
+	
 }
 
 #button2:hover {
   background-color: white;
   color: #BF9F74;
   border: 2px solid #BF9F74;
-	transform:scale(1.1);
-transition: 0.8s;
+	
 }
 
 
@@ -237,6 +236,7 @@ figure img:hover{
 	 transform:scale(1.13);
 transition: 0.3s;
 }
+
 /* --------------*/
 .Container-4 /*Zweiter Textblock*/{
 	
@@ -266,25 +266,11 @@ transition: 0.3s;
 #textbox-2 img {
 		max-width: 30%;
 		margin-left: 50px;
-		padding-top: 4%;		
-}
-
-#textbox-1 img:hover{
+		padding-top: 4%;
 	transform:scale(1.1);
 transition: 0.8s;
 }
 
-#textbox-2 img:hover{
-	transform:scale(1.1);
-transition: 0.8s;
-	
-}
-
-#textbox-3 img:hover{
-	transform:scale(1.1);
-transition: 0.8s;
-	
-}
 /* --------------*/
 
 .Container-5{ /*Dritter Textblock*/
@@ -303,6 +289,7 @@ transition: 0.8s;
 	font-size: 1.1em;
 	margin-left: 20px;
 	
+	
 }
 
 
@@ -318,6 +305,8 @@ transition: 0.8s;
 #textbox-3 img {
 		max-width: 35%;
 		margin-left: 10%;
+	transform:scale(1.1);
+	transition: 0.8s;
 }
 
 
@@ -333,6 +322,8 @@ transition: 0.8s;
 		font-family: 'Nunito Sans', bold;
 		font-weight: 100;
 		margin-left: 5%;
+	transform:scale(1.1);
+	transition: 0.8s;
 }
 
 
