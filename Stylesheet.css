@@ -448,6 +448,18 @@ input[type="email"]:focus {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 767px) {
 	
 	.body {
@@ -573,9 +585,10 @@ bottom: 40%;
 	/*-------------pinke blumen---------------*/
 	
 	#text-2{
-	width: 380px;
+	width: 80%;
 	text-align: center;
 	max-width: 100%;
+	padding-left: 15%;
 	}
 	
 	
