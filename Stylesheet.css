@@ -191,12 +191,16 @@ font-size: 1.1em;
   background-color: white;
   color: #BF9F74;
   border: 2px solid #BF9F74;
+	transform:scale(1.1);
+transition: 0.8s;
 }
 
 #button2:hover {
   background-color: white;
   color: #BF9F74;
   border: 2px solid #BF9F74;
+	transform:scale(1.1);
+transition: 0.8s;
 }
 
 
@@ -328,6 +332,7 @@ transition: 0.8s;
         margin-top: 5%;	
 		font-family: 'Nunito Sans', bold;
 		font-weight: 100;
+		margin-left: 5%;
 }
 
 
