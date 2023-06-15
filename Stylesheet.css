@@ -320,7 +320,7 @@ transition: 0.8s;
 		margin-left: 10%;
 }
 
-#textbox-2 img:hover{
+#textbox-3 img:hover{
 	transform:scale(1.1);
 transition: 0.8s;
 }
@@ -434,18 +434,15 @@ input[type="email"]:focus {
 
 
 #button3 {
-			background-color: #BF9F74;
-    color: white;
-    padding: 10px 20px;
-    border: 2px solid #BF9F74;
-    border-radius: 5px;
-    font-size: 1.1em;
-    cursor: pointer;
-    margin-top: 5%;
-    font-family: 'Nunito Sans', bold;
-    font-weight: 100;
-    margin-left: 5%;
-    transition: 0.8s;		
+		background-color: #BF9F74;
+        color: white;
+        padding: 5px 5px;
+        border-radius: 3px;
+       	font-size: 0.8em;
+        cursor:pointer;
+		margin-top: 5%;
+		font-family: 'Nunito Sans', bold;
+		font-weight: 100;		
 }
 
 #button3:hover {
