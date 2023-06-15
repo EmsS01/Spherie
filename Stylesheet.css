@@ -171,39 +171,42 @@ font-size: 1.1em;
 		
 }
 
-#textbox-2 img:hover{
+#textbox-1 img:hover{
+	transform:scale(1.1);
 transition: 0.8s;
-transform:scale(1.1);
 }
 
 
 #button1 {
 	
 	background-color: #BF9F74;
-    color: white;
-    padding: 10px 20px;
-    border: 2px solid #BF9F74;
-    border-radius: 5px;
-    font-size: 1.1em;
-    cursor: pointer;
-    margin-top: 5%;
-    font-family: 'Nunito Sans', bold;
-    font-weight: 100;
-    margin-left: 5%;
-    transition: 0.8s;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+       	font-size: 1.1em;
+        cursor:pointer;
+        margin-top: 5%;	
+		margin-bottom: 5%;
+		font-family: 'Nunito Sans', bold;
+		font-weight: 100;
 }
 
 #button1:hover {
-	background-color: white;
+	 background-color: white;
   color: #BF9F74;
-transform: scale(2);
+  border: 2px solid #BF9F74;
+	transform:scale(1.1);
+transition: 0.8s;
 	
 }
 
 #button2:hover {
   background-color: white;
   color: #BF9F74;
-transform: scale(2);
+  border: 2px solid #BF9F74;
+	transform:scale(1.1);
+transition: 0.8s;
 	
 }
 
@@ -276,8 +279,8 @@ transition: 0.3s;
 }
 
 #textbox-2 img:hover{
+	transform:scale(1.1);
 transition: 0.8s;
-transform:scale(1.1);
 }
 
 /* --------------*/
@@ -315,9 +318,10 @@ transform:scale(1.1);
 		max-width: 35%;
 		margin-left: 10%;
 }
+
 #textbox-2 img:hover{
+	transform:scale(1.1);
 transition: 0.8s;
-transform:scale(1.1);
 }
 
 
@@ -444,8 +448,9 @@ input[type="email"]:focus {
 }
 
 #button3:hover {
-color: #BF9F74;
-transform: scale(2);
+  background-color: white;
+  color: #BF9F74;
+  border: 2px solid #BF9F74;
 }
 
 
