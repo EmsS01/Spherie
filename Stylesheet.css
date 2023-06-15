@@ -476,12 +476,12 @@ input[type="email"]:focus {
 
 	.Vertrauensbox{
 	position: relative;
-  	height: 50px; 
+  	height: 45px; 
 		
 	}
 	
 	.Vertrauensbox p {
-		font-size: 1em;
+		font-size: 0.8em;
 		position: absolute;
 	}
 	
@@ -497,13 +497,7 @@ bottom: 40%;
 		
 	}
 	
-	
-	.Text {
-	position: absolute;
-	top: 79%;
-	left: 50%;
-	
-	}
+
 	
 	.banner{
 		position: relative;
@@ -523,15 +517,8 @@ bottom: 40%;
 		height: auto;
 		
 	}
-/*Pfeil nach unten */
+
 	
-	.box{
-		top:660px;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		position: absolute;
-		
-	}
 
 	/*----------------*/
 	#Zitat{
