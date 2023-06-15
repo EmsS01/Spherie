@@ -168,7 +168,11 @@ font-size: 1.1em;
 #textbox-1 img {
 		max-width: 35%;
 		margin-left: 10%;
+		transform:scale(1.1);
+}
 
+#textbox-2 img:hover{
+transition: 0.8s;	
 }
 
 
@@ -267,7 +271,10 @@ transition: 0.3s;
 		margin-left: 50px;
 		padding-top: 4%;
 	transform:scale(1.1);
-transition: 0.8s;
+
+}
+#textbox-2 img:hover{
+transition: 0.8s;	
 }
 
 /* --------------*/
@@ -305,7 +312,10 @@ transition: 0.8s;
 		max-width: 35%;
 		margin-left: 10%;
 	transform:scale(1.1);
-	transition: 0.8s;
+}
+
+#textbox-3 img:hover{
+transition: 0.8s;	
 }
 
 
