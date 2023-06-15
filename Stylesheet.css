@@ -460,6 +460,14 @@ input[type="email"]:focus {
 
 
 
+
+
+
+
+
+
+
+
 @media (max-width: 767px) {
 	
 	.body {
@@ -601,14 +609,14 @@ bottom: 40%;
 	}
 		
 	#textbox-2 img {
-		min-width: 80%;
+		min-width: 75%;
 		margin-top: 10px;
 		margin-left:12%;
 		
 	}
 	
 	#textbox-2 p {	
-		width: 100%;
+		max-width: 100%;
 	}
 	
 	#button1{
