@@ -311,8 +311,9 @@ figure img:hover{
 #text-3 {
 	float: right;
 	padding-top: 9%;
-	margin-right:15%;
 	text-align: left;
+	justify-content: center;
+	margin-right: 10%;
 	width: 380px;
 
 }
@@ -564,7 +565,6 @@ bottom: 40%;
 	#text-1{
 	width: 80%;
 	text-align: center;
-	padding-left: 15%;
 	}
 	
 	#textbox-1 img {
