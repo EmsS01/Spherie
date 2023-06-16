@@ -168,10 +168,11 @@ font-size: 1.1em;
 }
 
 #textbox-1 img {
-		max-width: 45%;
+		max-width: 48%;
 	float: left;
 		padding-top: 8%;
 	transition: 0.8s;
+	padding-right: 25px;
 		
 }
 
