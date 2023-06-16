@@ -299,7 +299,7 @@ figure img:hover{
 	font-weight: 100;
 	padding-bottom: 40px;
 	font-size: 1.1em;
-	margin-left: 20px;
+	
 	
 	
 }
@@ -310,13 +310,15 @@ figure img:hover{
 	padding-top: 9%;
 	margin-right:15%;
 	text-align: left;
-	width: 40%;	
+	width: 380px;
 
 }
 
 #textbox-3 img {
-		max-width: 35%;
-		margin-left: 10%;
+		max-width: 34%;
+	float: left;
+	margin-left: 5%;
+		padding-top: 8%;
 	transition: 0.8s;
 }
 
@@ -337,7 +339,7 @@ figure img:hover{
     margin-top: 5%;
     font-family: 'Nunito Sans', bold;
     font-weight: 100;
-    margin-left: 5%;
+   
     transition: 0.8s;
 }
 
