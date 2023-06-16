@@ -510,7 +510,8 @@ letter-spacing: 133%;
 color: #BF9F74;
 padding-bottom: 2%;
 display: flex;
-bottom: 40%;
+	bottom: 30px;
+	font-size: 4em;
 		
 	}
 	
@@ -558,13 +559,13 @@ bottom: 40%;
 	max-width: 100%;
 	padding: 0%;
 	
-
-	
 	}
 	
 	#text-1{
 	width: 80%;
 	text-align: center;
+	max-width: 100%;
+	
 	}
 	
 	#textbox-1 img {
